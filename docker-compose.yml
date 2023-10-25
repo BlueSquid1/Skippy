@@ -1,0 +1,7 @@
+version: '2'
+services:
+  web:
+    image: podcaster
+    container_name: podcaster-container
+    ports:
+      - "8081:8080"
